@@ -5,6 +5,9 @@ A Simple login system made using Javascript & Firebase. There are a few hard-cod
 ## Features
 1. User will automatically redirected to login page if no credential found or wrong credential given.
 
+## Development
+1. Log Out: It's fairly easy to log out. Current logged in user's credential are stored in localStorage and encrypted, the only thing you need to do is remove the `sessionKey` from localStorage. e.g: `localStorage.removeItem("sessionKey")`.
+
 ## TODO
 - [ ] Add Sign-Up form
 
