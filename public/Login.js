@@ -1,14 +1,6 @@
 window.onload = async () => {
     // Initialize Firebase
-    const firebaseConfig = {
-        apiKey: "AIzaSyAbV0ddJS2tsm2LoSgf5i3JILwbv38sbwo",
-        authDomain: "wb-pos-d4271.firebaseapp.com",
-        projectId: "wb-pos-d4271",
-        storageBucket: "wb-pos-d4271.appspot.com",
-        messagingSenderId: "570129367737",
-        appId: "1:570129367737:web:09f7b90f4f56194dd39168",
-        measurementId: "G-BSGHHVV9G3"
-    };
+    const firebaseConfig = {}; // Fill with your firebase app config
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
 
