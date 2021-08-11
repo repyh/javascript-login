@@ -2,11 +2,17 @@
 
 A Simple login system made using Javascript & Firebase. There are a few hard-coded variable since I also use this for my other project and I'm too lazy to change it.
 
+## Live Demo
+Check out the Live Demo at https://javascript-login-demo.herokuapp.com/login.
+- Username: demo
+- Password: demo
+
 ## Features
 1. User will automatically redirected to login page if no credential found or wrong credential given.
 
 ## Development
 1. Log Out: It's fairly easy to log out. Current logged in user's credential are stored in localStorage and encrypted, the only thing you need to do is remove the `sessionKey` from localStorage. e.g: `localStorage.removeItem("sessionKey")`.
+2. Import `SessionCheck.js` for every page that you need the user to be signed in.
 
 ## TODO
 - [ ] Add Sign-Up form
