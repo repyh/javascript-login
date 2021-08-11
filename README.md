@@ -17,4 +17,12 @@ A Simple login system made using Javascript & Firebase. There are a few hard-cod
 6. In permission pop up page, make sure you change `allow read, write: if false;` into `allow read, write: if true;` (You can google a more thorough and advance permissions).
 7. Add a new collection named `users` and then add a new document.
 8. Name the document `admin` and then add 2 fields, `username` and `password` field. Fill both field with `admin`.
-9. Done! You can now host the website anywhere then just go to `{website-url}/login`.
+9. Go back to the repo and go to all javascript object and change `http://localhost:300` into your website url (yes, I'm too lazy)
+10. Done! You can now host the website anywhere then just go to `{website-url}/login`.
+
+# Hosting Locally
+1. Download `node.js` latest version.
+2. Download the repo
+3. Open Command Prompt/Terminal and then change your directory into the repo that you've downloaded.
+4. Run `node .` or `node index.js`.
+5. Done! Go to http://localhost:3000 to check out your website
